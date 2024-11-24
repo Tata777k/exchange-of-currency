@@ -53,7 +53,7 @@ b_combobox.pack(padx=10, pady=10)
 b_combobox.bind("<<ComboboxSelected>>", update_c_label)
 
 
-Label(text="Выберите код валюты").pack(padx=10, pady=10)
+Label(text="Целевая валютa").pack(padx=10, pady=10)
 
 tcombobox = ttk.Combobox(values=list(cur.keys()))
 tcombobox.pack(padx=10, pady=10)
